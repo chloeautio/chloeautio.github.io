@@ -10,51 +10,6 @@ h1 {
   float: left;
 }
 
-#homeBar {
-  /* display: inline; */
-  margin-top: 30px;
-  /* width: 200px; */
-  /* position: static; */
-}
-
-#home-icon {
-    background-color: #efe7be;
-  opacity: 0.8;
-  float: right;
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-  /* margin-right: 200px; */
-  /* position: absolute; */
-  /* top: 50%; */
-  -webkit-transform: translate(-50%, -50%);
-  /* margin-top: 59px; */
-  /* margin-left: 136px; */
-  margin-right: 245px;
-}
-
-.home-text {
-   text-align: center;
-  /* top: 50%; */
-  /* left: 50%; */
-  transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  font-weight: 300;
-  /* vertical-align: middle; */
-  /* display: table-cell; */
-  font-size: 23px;
-  margin-top: 56px;
-}
-
- #hometextspan{
- 	  position: relative;
-  	top: 18px;
- }
-
- 
-
 #content-container {
 	max-width: 700px;
   overflow: hidden;
@@ -183,8 +138,50 @@ h2 {
   font-size: 40px;
   margin-top: 30px;
   float: left;
-
 }
+
+#homeBar {
+  /* display: inline; */
+  margin-top: 30px;
+  /* width: 200px; */
+  /* position: static; */
+}
+
+#home-icon {
+    background-color: #efe7be;
+  opacity: 0.8;
+  float: right;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  /* margin-right: 200px; */
+  /* position: absolute; */
+  /* top: 50%; */
+  -webkit-transform: translate(-50%, -50%);
+  /* margin-top: 59px; */
+  /* margin-left: 136px; */
+  margin-right: 245px;
+}
+
+.home-text {
+   text-align: center;
+  /* top: 50%; */
+  /* left: 50%; */
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-weight: 400;
+  /* vertical-align: middle; */
+  /* display: table-cell; */
+  font-size: 21px;
+  margin-top: 56px;
+}
+
+ #hometextspan{
+    position: relative;
+    top: 18px;
+ }
 
 #content-container2 {
 	max-width: 900px;
@@ -274,10 +271,11 @@ img {
   -moz-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  font-weight: 300;
+  font-weight: 400;
   /* vertical-align: middle; */
   /* display: table-cell; */
-  font-size: 23px;
+  font-size: 24px;
+  text-decoration: none;
   /* margin-top: 56px; */
 }
 
@@ -338,7 +336,8 @@ font-weight: 300;
 }
 
 .select-text {
-	font-size: 50px;
+  font-size: 16px;
+  background-color: rgba(0,0,255,0.1);
 }
 
 #footer3 {
@@ -351,7 +350,9 @@ font-weight: 300;
   text-align: center;
 }
 
-
+.subnav {
+  background-color: rgba(0,0,255,0.1)
+}
 
 
 
