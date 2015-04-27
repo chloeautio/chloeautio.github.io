@@ -1,46 +1,109 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 30px;
+	margin-top: 30px;
 }
 
 #content-container {
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
+	max-width: 700px;
+  overflow: hidden;
+  margin: 0px auto;
 }
 
-#welcome-box {
-	height: 200px;
-	width: 300px;
-	opacity: 1;
-	z-index: 100;
-	margin-left: 150px;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	float: left;
+#welcome-box1 {
+  width: 420px;
+  z-index: 100;
+  float: left;
 }
 
-.welcome {
-	font-size: 90px;
-	padding: 10px;
+#welcome {
+  font-size: 80px;
+  font-weight: 300;
 }
 
-.lorem-body {
+#lorem-body {
 	font-size: 14px;
-	margin-left: 50px;
-	padding: 3px;
+  padding: 3px;
+  line-height: 29px;
 }
 
 #circles-container {
-	height: 30px;
-	width: 100px;
-	float: right;
-
+  float: right;
+  padding: 10px;
+  margin-right: 30px;
 }
 
+.circles {
+	  margin: 10px;
+  padding: 3px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border: 3px solid;
+  border-color: black;
+}
 
+.circles-text {
+	  font-weight: 400;
+  font-size: 25px;
+  /* margin-top: 16px; */
+  text-align: center;
+  color: white;
+  /* display: inline-block; */
+  width: 100px;
+  height: 100px;
+  /* line-height: normal; */
+  vertical-align: middle;
+  display: table-cell;
+}
 
+#about-me {
+	background-color: #002635;
+}
 
+#practice-areas {
+	background-color: #013440;
+}
 
+#legal-links {
+	background-color: #ab1a25;
+}
+
+#contact {
+	background-color: #d97925;
+}
+
+#footer1 {
+		  margin-left: 30px;
+  font-weight: 400;
+  font-size: 14;
+  font-style: italic;
+  clear: both;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#options {
+	margin-left: 7px;
+	display: inline-block;
+}
+
+.icon {
+	float: left;
+	display: inline-block;
+    padding-right: 3px;
+}
+
+.icon img {
+	height: 30px;
+	width: 30px;
+	float: left;
+}
 
 #background-image {
 	position: fixed;
@@ -54,37 +117,147 @@ body {
 }
 
 
+/* about me */
 
+h2 {
+	  font-weight: 300;
+  font-size: 40px;
+  margin-top: 30px;
+}
 
+#content-container2 {
+	max-width: 900px;
+  margin: 0px auto;
+}
 
-
-
-
-
-
-
-
-#container {
-	width: 960px;
-	margin: 0px auto;
-	padding: 30px 0px;
-	margin: 0 auto;
-	text-align: center;
+#bio-box {
+  width: 420px;
+  float: left;
 
 }
 
-#image_container {
-	width: 136px;
-	height: 196px;
-	margin: 0 auto;
+#image-container {
+	  margin-right: 10px;
+  float: left;
 }
 
-#thumbnail img {
-	width: 128px;
-	height: 180px;
-	display: block;
-	margin: 0 auto;
+img {
+	float: left;
+	padding-right: 10px;
 }
+
+#lorem-body2 {
+font-size: larger;
+  float: right;
+  width: 480px;
+}
+
+.clear {
+  clear: both;
+}
+
+#footer2 {
+  margin-top: 20px;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  clear: both;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#image-container2 {
+	float: right;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.pics {
+	
+}
+
+
+
+
+/* AREAS */
+
+.heading-bar {
+	position: relative;
+	width: 100%;
+}
+
+.pano {
+	height: 125px;
+	width: 100%;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  position: absolute;
+  color: white;
+ }
+
+#welcome-box3 {
+    height: 150px;
+  width: 459px;
+  z-index: 100;
+  margin-left: 100px;
+  margin-top: 10px;
+  float: left;
+}
+
+#lorem-body3 {
+	font-size: 16px;
+  margin-left: 30px;
+  padding: 3px;
+}
+
+#searchBar-wrapper {
+	  height: 405px;
+  width: 200px;
+  margin-right: 300px;
+  float: right;
+  margin-bottom: -5px;
+}
+
+#searchBar {
+      width: 100%;
+  margin: -2px auto;
+  opacity: 1;
+  height: 92px;
+}
+
+.searchText {
+      font-weight: 300;
+  font-size: 25px;
+  padding-bottom: 1px;
+}
+
+.select-text {
+	font-size: 50px;
+}
+
+#footer3 {
+   width: 1120px;
+  margin-top: 22px;
+  margin-left: 33px;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  clear: both;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
 
 #header {
 	font-size: 28px;
@@ -142,4 +315,135 @@ a {
 	margin-top: 10px;
 	margin-right: 10px;
 	margin-left: 10px;
+}
+
+
+
+/* ELASTISLIDE */
+
+/* Elastislide Style */
+
+.elastislide-list {
+	list-style-type: none;
+	display: none;
+}
+
+.no-js .elastislide-list {
+	display: block;
+}
+
+.elastislide-carousel ul li {
+	min-width: 20px; /* minimum width of the image (min width + border) */
+}
+
+.elastislide-wrapper {
+	position: relative;
+	background-color: #fff;
+	margin: 0 auto;
+	min-height: 60px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.elastislide-wrapper.elastislide-loading {
+	background-image: url(../images/loading.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.elastislide-horizontal {
+	padding: 10px 40px;
+}
+
+.elastislide-vertical {
+	padding: 40px 10px;
+}
+
+.elastislide-carousel {
+	overflow: hidden;
+	position: relative;
+}
+
+.elastislide-carousel ul {
+	position: relative;
+	display: block;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	-o-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+.elastislide-horizontal ul {
+	white-space: nowrap;
+}
+
+.elastislide-carousel ul li {
+	margin: 0;
+	-webkit-backface-visibility: hidden;
+}
+
+.elastislide-horizontal ul li {
+	height: 100%;
+	display: inline-block;
+}
+
+.elastislide-vertical ul li {
+	display: block;
+}
+
+.elastislide-carousel ul li a {
+	display: inline-block;
+	width: 100%;
+}
+
+.elastislide-carousel ul li a img {
+	display: block;
+	border: 2px solid white;
+	max-width: 100%;
+}
+
+/* Navigation Arrows */
+
+.elastislide-wrapper nav span {
+	position: absolute;
+	background: #ddd url(../images/nav.png) no-repeat 4px 3px;
+	width: 23px;
+	height: 23px;
+	border-radius: 50%;
+	text-indent: -9000px;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.elastislide-wrapper nav span:hover {
+	opacity: 1.0
+}
+
+.elastislide-horizontal nav span {
+	top: 50%;
+	left: 10px;
+	margin-top: -11px;
+}
+
+.elastislide-vertical nav span {
+	top: 10px;
+	left: 50%;
+	margin-left: -11px;
+	background-position: -17px 5px;
+}
+
+.elastislide-horizontal nav span.elastislide-next {
+	right: 10px;
+	left: auto;
+	background-position: 4px -17px;
+}
+
+.elastislide-vertical nav span.elastislide-next {
+	bottom: 10px;
+	top: auto;
+	background-position: -17px -18px;
 }
